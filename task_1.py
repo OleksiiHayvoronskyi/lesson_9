@@ -19,7 +19,7 @@ class Car(object):
         self.direction_of_wheels_1 = direction_of_wheels_1
         self.direction_of_wheels_2 = direction_of_wheels_2
 
-    # Деталі методу - Їхати вперед.
+    # Деталі методу – Їхати вперед.
     def drive_forward(self):
         print('(Main Car\'s class)')
 
