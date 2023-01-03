@@ -10,7 +10,7 @@ print('--- Task 1 ---')
 
 # Батьківський клас Car.
 class Car(object):
-    # Атрибути класу.
+    # Визначаю атрибути класу.
     def __init__(self, brand, color, engine_volume, direction_of_wheels_1,
                  direction_of_wheels_2):
         self.brand = brand
@@ -59,7 +59,7 @@ class PassengerCar(Car):
         # Успадковую атрибути класу Car.
         super().__init__(brand, color, engine_volume, direction_of_wheels_1,
                          direction_of_wheels_2)
-        # Додаю нові атрибути до підкласу PassengerCar.
+        # Визначаю нові атрибути до підкласу PassengerCar.
         self.direction_of_wheels_3 = direction_of_wheels_3
         self.direction_of_wheels_4 = direction_of_wheels_4
 
