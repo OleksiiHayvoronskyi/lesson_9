@@ -30,6 +30,6 @@ class Square(Parallelogram):
 # Викликаю метод класу Parallelogram.
 area_1 = Parallelogram(5, 6)
 print(area_1.get_area())
-# Викликаю метод класу підкласу Square.
+# Викликаю метод підкласу Square.
 area_2 = Square(4, 4)
 print(area_2.get_area())
