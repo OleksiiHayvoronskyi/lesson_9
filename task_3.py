@@ -8,10 +8,12 @@ print('--- Task 3 ---')
 
 
 class Parallelogram:
+    # Визначаю два аргументи: width та lenght
     def __init__(self, width, length):
         self.width = width
         self.length = length
 
+    # Метод для вирахування площі паралелограму.
     def get_area(self):
         print('Calculate the area of the parallelogram:')
         print(f' width = {self.width} cm\n length = {self.length} cm')
@@ -19,7 +21,9 @@ class Parallelogram:
         return f'Area of the parallelogram = {self.width * self.length} cm'
 
 
+# Успадкований клас з класу Parallelogram.
 class Square(Parallelogram):
+    # Метод для вирахування площі квадрата.
     def get_area(self):
         print('\nCalculate the area of the square:')
         print(f' width = {self.width} cm\n length = {self.length} cm')
